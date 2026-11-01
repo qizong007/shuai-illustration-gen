@@ -1,6 +1,6 @@
 # shuai-illustration-gen
 
-![shuai-illustration-gen：以共享根系的树、负重者与幼苗、电脑与喇叭天平三张实际成图，展示米白纸底、黑白剪纸和朱红强调的统一插画风格。](assets/readme/hero.png)
+![shuai-illustration-gen：把想法画成插画，黑色铅笔的纸带笔触化为朱红翅膀的飞鸟，展示米白纸底与剪纸拼贴风格。](assets/readme/hero.png)
 
 生成风格统一的复古编辑概念插画：暖米白纸底、黑白灰主体、朱红强调、手工剪纸拼贴与细腻印刷颗粒。
 

@@ -1,35 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
   <title id="title">shuai-illustration-gen — 把想法，画成插画。</title>
-  <desc id="desc">三张真实生成示例：共享根系的树、负重的人与幼苗、平衡电脑与喇叭的天平。暖米白背景、黑白剪纸和有分量的朱红强调，形成统一的编辑插画风格。</desc>
-  <rect width="1200" height="780" fill="#FBF8F1"/>
-  <g id="identity" fill="#171717" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif">
-    <path d="M52 42 L75 39 L73 65 L50 68 Z" fill="#D32918"/>
-    <text x="91" y="63" font-size="30" font-weight="600" letter-spacing="-.7">shuai-illustration-gen</text>
-    <text x="50" y="167" font-size="68" font-weight="700" letter-spacing="-2">把想法，画成<tspan fill="#D32918">插画。</tspan></text>
-    <text x="54" y="226" font-size="30">一个主题，一套统一的插画语言。</text>
-  </g>
-  <g id="real-output-specimens">
-    <image x="40" y="282" width="368" height="245.333" xlink:href="shared-roots.png"/>
-    <image x="416" y="282" width="368" height="245.333" xlink:href="burden-and-growth.png"/>
-    <image x="792" y="282" width="368" height="245.333" xlink:href="build-and-sell.png"/>
-    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" fill="#171717" font-size="28" text-anchor="middle">
-      <text x="224" y="577">积累与复用</text>
-      <text x="600" y="577">责任与成长</text>
-      <text x="976" y="577">创造与销售</text>
+  <desc id="desc">黑色铅笔的纸带笔触化为一只朱红翅膀的飞鸟，用剪纸拼贴表达从想法到图像的过程。</desc>
+  <defs>
+    <clipPath id="canvas"><rect width="1200" height="420" rx="24"/></clipPath>
+    <linearGradient id="blend" x1="0" x2="1"><stop offset="0" stop-color="#FBF8F1"/><stop offset="1" stop-color="#FBF8F1" stop-opacity="0"/></linearGradient>
+  </defs>
+  <g clip-path="url(#canvas)">
+    <rect width="1200" height="420" fill="#FBF8F1"/>
+    <g id="generated-art">
+      <image x="580" y="0" width="630" height="420" xlink:href="hero-art.png"/>
+      <rect x="580" width="100" height="420" fill="url(#blend)"/>
     </g>
-  </g>
-  <g id="style-signature">
-    <path d="M54 622 H1146" stroke="#BDB9B0" stroke-width="1"/>
-    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" fill="#171717">
-      <text x="54" y="681" font-size="30">米白纸底 · 黑白主体 · 朱红强调</text>
-      <text x="54" y="726" font-size="25">手工剪纸拼贴 / 细腻印刷颗粒 / 概念隐喻</text>
-    </g>
-    <g id="palette" transform="translate(848 660)">
-      <path d="M0 2 L49 0 L48 47 L1 49 Z" fill="#FBF8F1" stroke="#BDB9B0"/>
-      <path d="M61 0 L109 3 L111 48 L60 47 Z" fill="#171717"/>
-      <path d="M123 3 L173 0 L171 48 L122 47 Z" fill="#F7F5EF" stroke="#BDB9B0"/>
-      <path d="M185 0 L233 2 L235 47 L183 49 Z" fill="#BDB9B0"/>
-      <path d="M245 2 L297 0 L295 48 L246 47 Z" fill="#D32918"/>
+    <g id="title-block" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" fill="#171717">
+      <path d="M54 43 L73 41 L72 61 L53 63 Z" fill="#D32918"/>
+      <text x="88" y="62" font-size="27" font-weight="650" letter-spacing="-.5">shuai-illustration-gen</text>
+      <text x="50" y="162" font-size="70" font-weight="750" letter-spacing="-2">把想法，</text>
+      <text x="50" y="245" font-size="70" font-weight="750" letter-spacing="-2">画成<tspan fill="#D32918">插画。</tspan></text>
+      <text x="54" y="307" font-size="25" font-weight="500">米白纸底 · 黑白剪纸 · 朱红强调</text>
+      <text x="54" y="367" font-size="20">文章配图 / 概念表达 / 系列插画</text>
     </g>
   </g>
 </svg>
