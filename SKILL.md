@@ -10,7 +10,7 @@ description: 生成风格统一的复古编辑概念插画：暖米白纸底、�
 ## 确定画面
 
 - 从用户主题、文章或段落中提取要表达的一个核心意思。已有明确画面描述时直接采用，不强行改成隐喻。
-- 未指定画面时，选择一个容易看懂的主物体关系，例如堆叠、失衡、连接、遮挡或对比；避免把所有关键词都画进去。
+- 默认采用简单构图。选一个主要关系（如失衡、连接或遮挡），只保留看懂这个关系需要的物件，背景留出整块米白。
 - 用户要求画图时直接生成；仅在用户要求提示词时只交付提示词。
 - 默认一张无字插画。画幅优先服从用户要求或既有系列；无上下文时默认横向 3:2。数量、画幅、文字和主体是任务变量，不是风格规范。
 - 不自动添加标题、标签、Logo、水印或装饰文字。用户指定文字时逐字保留。
@@ -33,13 +33,13 @@ PALETTE — use these five target colors as the only designed palette:
 - Warm Gray: #BDB9B0 — secondary shapes and understated paper shadows.
 - Accent Red: #D32918 — purposeful, clearly visible focal accents, including selected whole paper shapes.
 
-Keep generous ivory negative space, with black and off-white forming the main visual structure and warm gray supporting it. Red must be clearly visible at thumbnail size without dominating the overall canvas. Choose either one coherent red paper shape that emphasizes a meaningful subject, or a few related red shapes that create visual rhythm or contrast. Preserve substantial monochrome structure around them. Do not confine red to a tiny dot or thin line, and do not target a fixed pixel percentage. Judge its weight by whether it helps the viewer find the intended focal point. Do not mechanically recolor object rims, frames or accessories just to increase red area. An already effective small accent may remain small. Keep the background consistently #FBF8F1 warm ivory, not yellowed parchment or pure white. Fine tonal variations from paper grain, antialiasing, and soft shadows are acceptable; do not introduce additional chromatic hues.
+Keep generous ivory negative space. Build the main silhouettes in ink black, paper white and warm gray. Aim for vermilion across roughly 10–20% of the whole canvas by visual estimate. Concentrate it on one focal shape or a few closely related parts read as a group. Keep the background consistently #FBF8F1 with subtle grain and soft paper shadows.
 
 MATERIALS AND RENDERING:
 Hand-cut paper shapes with slightly irregular edges, overlapping paper layers, subtle paper thickness and soft short contact shadows. Predominantly flat 2D shapes with only shallow paper relief. Fine natural paper grain, delicate vintage print noise and slightly uneven ink coverage. Matte, tactile surfaces. Texture must remain subtle enough that the background looks clean and the main shapes stay readable.
 
 COMPOSITION:
-One clear visual idea, strong hierarchy, generous negative space, high contrast between black shapes and the ivory ground. Asymmetric, organically arranged cutouts with intentional overlap. Red can define a meaningful object, link related shapes or create a purposeful contrast; preserve the main narrative hierarchy. Do not scatter red decorations mechanically or force every image in a series to use the same red area. Keep secondary elements sparse and meaningful.
+Build one simple visual metaphor. Keep a clear silhouette and only the supporting objects needed to read the relationship. Use overlap deliberately, leave a broad unbroken area of ivory and keep the focal shape legible at thumbnail size.
 
 ART DIRECTION:
 Restrained vintage editorial illustration, conceptual magazine artwork, handmade mixed-media paper collage, minimal screen-print texture, subtle surrealism when useful to the subject. Calm, thoughtful and inventive rather than cute or promotional.
@@ -52,10 +52,8 @@ Additional blue, green, purple, yellow or orange hues; colorful gradients; neon;
 
 ## 红色的使用判断
 
-- **先定强调对象，再定面积**：红色用来突出主题形体、连接相关元素或形成有意义的对比，不是单纯补足一种颜色。
-- **有分量，但不抢满画面**：允许一个完整纸片形体为红色，或几块相关红色彼此呼应；周围保留足够黑白结构和米白留白。无需限制成一个小点，也不规定统一占比。
-- **加红要有收益**：缩小看图，红色应让视觉落点更清楚。如果只是让边框、部件或配件更醒目，却没有改善主题表达，就保留原来的黑白。
-- **按画面判断**：已有的小红色足以表达时可以保持，系列中也不要求每张一样多。不要把具体物体列为永久的必涂或禁涂对象。
+- **面积**：以包含米白留白的整幅画面为基准，目测朱红约占 10%–20%。这是构图目标，纸纹、阴影和边缘可自然过渡。
+- **落点**：先选一个值得强调的形体，或几块表达同一关系的纸片，再决定红色落在哪里。需要增加红色时，优先扩大已有焦点；红色过重时，把外围细节收回黑白。
 
 ## 每次替换的内容块
 
@@ -83,7 +81,7 @@ TASK OVERRIDES: [仅填写用户明确要求改变的默认项；无则省略]
 
 ## 检查与交付
 
-查看生成结果，重点检查：暖米白背景是否稳定；是否出现额外彩色；红色是否清晰可见且强调了有意义的形体、没有机械涂红无关部位；纸纹和阴影是否克制；是否像剪纸拼贴；主题是否一眼可辨；是否有多余文字。系列作品应并排比较配色、主体尺度、留白和材质的一致性，但不要求每张拥有相同的红色面积。不要仅因某张红色少就自动加色。
+查看生成结果，重点检查：暖米白背景是否稳定；是否出现额外彩色；朱红目测是否约占整幅 10%–20%、是否集中在主题形体上；纸纹和阴影是否克制；是否像剪纸拼贴；缩小后主体关系是否一眼可辨、能否删去分散注意力的配件；是否有多余文字。系列作品应并排比较配色、主体尺度、留白和材质的一致性。
 
 有明显偏差时，保留固定前缀，只针对偏差修正，最多自动重试两次。仍不合格则如实说明未解决项，避免无限重绘。无法查看结果时，说明尚未完成视觉检查。
 
